@@ -1,0 +1,32 @@
+
+==> Input arguments...
+
+Feature directory: ../../backup2/10k_tol_combined_full_genome_kf
+Clades information: ../../backup/updated_input2/clade_targets_missingRemoved.txt
+Ground truth directory: ../../backup/updated_input2/astral_rand_lpp_r100_dist_mtrx
+
+==> Parameters...
+
+GPU Support: Yes
+Hidden Size fc1: 2048
+Embedding Size: 1024
+Starting Epoch: 0
+Total Epochs: 8000
+Batch Size: 16
+Learning Rate: 1e-05
+Learning Rate Min: 3e-06
+Learning Rate Decay: 2000
+Clades to train: 1
+Random Seed: 28
+
+==> Subtree training...
+
+Number of Classes: 1
+
+==> Working on subtree 1...
+
+
+==> Preparing Data...
+
+Dimensions of feature matrix rows: 584, cols: 8192
+Dimensions of true distance matrix rows: 584, cols: 584
